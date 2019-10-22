@@ -1,7 +1,7 @@
 export default {
   MAX_ATTACHMENT_SIZE: 5000000,
   s3: {
-    REGION: "us-east-2",
+    REGION: "us-west-2",
     BUCKET: "petlgunjr"
   },
   apiGateway: {
@@ -10,8 +10,8 @@ export default {
   },
   cognito: {
     REGION: "us-east-2",
-    USER_POOL_ID: "us-west-2_lx9pI2rvu",
-    APP_CLIENT_ID: "7qlfaaod0fep8a1an2o8ok2aqc",
-    IDENTITY_POOL_ID: "us-west-2:9e2d1459-743c-42e7-bb51-9ff25a9d0a1c"
+    USER_POOL_ID: "us-east-2_lGPZ9Jt6k",
+    APP_CLIENT_ID: "5bjh5mb6qm2oisggh74covo0jr",
+    IDENTITY_POOL_ID: "us-east-2:f103177a-c3cc-4069-92ea-e5b34cda2f45"
   }
 };

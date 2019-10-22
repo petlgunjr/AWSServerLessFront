@@ -15,6 +15,7 @@ export default function Notes(props) {
 
   useEffect(() => {
     function loadNote() {
+      console.log("test: ", props.match.params.id);
       return API.get("notes", `/notes/${props.match.params.id}`);
     }
 

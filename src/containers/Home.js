@@ -26,8 +26,9 @@ export default function Home(props) {
     onLoad();
   }, [props.isAuthenticated]);
 
-  function loadNotes() {
-    return API.get("notes", "/notes");
+  async function loadNotes () {
+    const response = await API.get("notes-app-api", "/notes");
+    console.log(response);
   }
 
   function renderNotesList(notes) {
